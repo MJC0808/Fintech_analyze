@@ -1,37 +1,25 @@
 # Fintech_analyze
 
-🏠 주택 가격 예측 프로젝트 (House Price Prediction)
+**🏠 주택 가격 예측 프로젝트 (House Price Prediction)**
 이 프로젝트는 파이썬을 활용하여 캘리포니아 주택 가격을 예측하는 머신러닝 모델을 구축합니다.
-
 주요 내용: 데이터 전처리 (로그 변환, 결측치/범주형 처리), LightGBM 모델 학습, K-Fold 교차 검증을 통한 성능 평가.
-
 핵심 기법: Optuna를 사용한 하이퍼파라미터 최적화, 변수 중요도 분석, 학습된 파이프라인 모델 저장.
-
 목표: 주택 특성 데이터 기반의 정확한 가격 예측 시스템 구현.
 
-💰 금융 상품 추천 시스템 프로젝트 (Financial Product Recommendation System)
+**💰 금융 상품 추천 시스템 프로젝트 (Financial Product Recommendation System)**
 이 프로젝트는 사용자 행동 데이터를 기반으로 금융 상품을 추천하는 시스템을 구축합니다.
-
 주요 내용: 협업 필터링을 사용한 상품 간 유사성 분석, LightGBM 분류 모델을 통한 사용자 다음 행동 예측.
-
 핵심 기법: 데이터 전처리, 모델 학습, F1-스코어를 포함한 성능 평가, 변수 중요도 분석, 모델 저장 및 로드.
-
 목표: 사용자 만족도 증대 및 금융 상품 판매 증진.
 
-💳 신용 점수 예측 모델 (Credit Score Prediction Model)
+**💳 신용 점수 예측 모델 (Credit Score Prediction Model)**
 이 프로젝트는 개인 금융 데이터를 활용하여 신용 점수를 예측하는 머신러닝 모델을 구축합니다.
-
 주요 내용: 데이터 전처리 (결측치, 범주형 변수 처리), LightGBM 분류 모델 학습.
-
 핵심 기법: F1-스코어를 통한 성능 평가, 특징 중요도 분석을 통해 모델 예측 영향 요소 파악, 모델 저장 및 로드.
-
 목표: 정확한 신용 점수 예측을 통한 금융 의사결정 지원.
 
-🚨 카드 거래 이상 탐지 모델 (Credit Card Fraud Detection Model)
+**🚨 카드 거래 이상 탐지 모델 (Credit Card Fraud Detection Model)**
 이 프로젝트는 신용카드 거래 데이터를 활용하여 이상 거래(사기)를 탐지하는 머신러닝 모델을 구축합니다.
-
 주요 내용: 불균형 데이터셋 처리, LightGBM 단일 모델 및 앙상블(VotingClassifier) 모델 (Logistic Regression, Random Forest, LightGBM 결합) 학습 및 평가.
-
 핵심 기법: ROC AUC, 혼동 행렬, 정밀도, 재현율, F1-스코어 등 다양한 지표로 성능 검증, 변수 중요도 시각화, 모델 저장 및 로드.
-
 목표: 금융 사기 탐지 정확도 향상 및 피해 방지.
