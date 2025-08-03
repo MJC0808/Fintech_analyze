@@ -9,5 +9,5 @@
 신용 점수 예측 모델 (Credit Score Prediction Model)
 이 프로젝트는 개인 금융 데이터를 활용하여 신용 점수를 예측하는 머신러닝 모델을 구축한다. 데이터 전처리(결측치, 범주형 변수 처리), LightGBM 분류 모델 학습 및 F1-스코어를 통한 성능 평가를 포함한다. 특히, 특징 중요도 분석을 통해 모델의 예측에 영향을 미치는 주요 요소를 파악하고, 학습된 모델을 저장 및 로드하여 재사용성을 확보한다.
 
-카드 거래 이상 탐지 모델 (Credit Card Fraud Detection Model)
+**카드 거래 이상 탐지 모델 (Credit Card Fraud Detection Model)
 이 프로젝트는 신용카드 거래 데이터를 활용하여 **이상 거래(사기)**를 탐지하는 머신러닝 모델을 구축한다. 불균형 데이터셋을 처리하며, LightGBM 단일 모델과 Logistic Regression, Random Forest, LightGBM을 결합한 앙상블(VotingClassifier) 모델을 학습하고 평가한다. ROC AUC, 혼동 행렬, 정밀도, 재현율, F1-스코어 등 다양한 지표를 통해 모델 성능을 검증하고, 변수 중요도를 시각화하여 인사이트를 도출한다. 학습된 모델은 pickle을 사용하여 저장하고 로드할 수 있다.
